@@ -8,4 +8,13 @@ request({ url: geocodeURL, json: true }, ( error, response) => {
 
 request({ url: url, json: true }, ( error, response) => {
 	const data = response.body
+	// Error Handling
+	if(error) {
+		console.log('Unable to connect to the Weather service, please check your internet connection')
+	} else if(data.error) {
+		console.log(`Invalid request`)
+	} else {
+		console.log(`${data.currently.icon}. It is ${data.currently.temperature} out there. There is ${data.currently.precipProbability}% chance of rainfall`)
+	}
+
 })
