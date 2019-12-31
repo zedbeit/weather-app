@@ -1,2 +1,2 @@
 # weather-app
-# using node.js, darksky and mapbox APIs
+using node.js, darksky and mapbox APIs
