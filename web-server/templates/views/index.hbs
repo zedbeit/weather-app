@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+	<div class="main-content">
+		<h1>{{>header}}</h1>
+
+		<form>
+			<input type="text" placeholder="Location">
+			<button>Search</button>
+		</form>
+
+		<div id="message">
+			<p id="displayText1"></p>
+			<p id="displayText2"></p>
+		</div>
+		{{!-- <p id="p1">From JS</p> --}}
+
+	</div>
+
+	{{>footer}}
+
+	<script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>
