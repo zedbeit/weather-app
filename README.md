@@ -11,4 +11,4 @@ This is a node.js weather application that allows users to get weather forecasts
 ### on local machine
 Clone this repo to your desktop and run `npm install` to install all the dependencies.
 
-### click [here](https://beita-weather-app.herokuapp.com/) to view.
+## click [here](https://beita-weather-app.herokuapp.com/) to view.
